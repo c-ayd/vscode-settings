@@ -1,0 +1,480 @@
+{
+    //"security.workspace.trust.untrustedFiles": "open",
+    //"security.workspace.trust.enabled": false,
+
+    "editor.formatOnPaste": true,
+    "editor.language.brackets": [],
+    
+    "git.ignoreMissingGitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+
+    "terminal.integrated.locale": "en",
+    "terminal.integrated.shellIntegration.enabled": false,
+
+    "telemetry.telemetryLevel": "off",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.enableExperiments": false,
+
+    "chat.disableAIFeatures": true,
+
+    //"workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Dark+",
+    "editor.fontFamily": "\"Consolas\", \"Courier New\", monospace",
+    "editor.fontSize": 16,
+    "workbench.tree.indent": 16,
+
+    "explorer.compactFolders": false,
+
+    "[c]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.bracketPairColorization.enabled": false,
+        "files.insertFinalNewline": true
+    },
+    "[cpp]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.bracketPairColorization.enabled": false,
+        "files.insertFinalNewline": true
+    },
+    "[csharp]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.bracketPairColorization.enabled": false,
+        "files.insertFinalNewline": true
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+    "[json]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+    "[python]": {
+        "files.insertFinalNewline": true
+    },
+    "[css]": {
+        "files.insertFinalNewline": true
+    },
+    "[scss]": {
+        "files.insertFinalNewline": true
+    },
+    "[html]": {
+        "files.insertFinalNewline": true
+    },
+    "[markdown]": {
+        "files.insertFinalNewline": true
+    },
+    "[shellscript]": {
+        "files.insertFinalNewline": true
+    },
+    "[bash]": {
+        "files.insertFinalNewline": true
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+    "[yml]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+    "[dockerfile]": {
+        "files.insertFinalNewline": true
+    },
+    "[ignore]": {
+        "files.insertFinalNewline": true
+    },
+    "[sql]": {
+        "files.insertFinalNewline": true
+    },
+    "[github-actions-workflow]": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true
+    },
+
+    "editor.semanticHighlighting.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "constant": "#DCDCDC",
+            "enumMember": "#DCDCDC",
+            "event": "#DCDCDC",
+            "extensionMethod": "#DCDCDC",
+            "field": "#DCDCDC",
+            "variable": "#DCDCDC",
+            "method": "#DCDCDC",
+            "namespace": "#DCDCDC",
+            "parameter": "#808080",
+            "property": "#DCDCDC",
+            "class": "#4EC9B0",
+            "delegate": "#4EC9B0",
+            "enum": "#B8D7A3",
+            "interface": "#B8D7A3",
+            "recordStruct": "#86C691",
+            "recordClass": "#86C691",
+            "struct": "#86C691",
+            "typeParameter": "#B8D7A3",
+            "controlKeyword": "#569CD6",
+            "operator": "#B4B4B4",
+            "operatorOverloaded": "#DCDCDC",
+            "newOperator": "#569CD6",
+            "templateType": "#4EC9B0",
+            "function": "#DCDCDC",
+            "label": "#C24B4B",
+            "macro": "#BD63C5",
+            "memberOperatorOverload": "#B4B4B4",
+            "excludedCode": "#808080"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            // C++
+            {
+                "scope": "keyword.control.if.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.else.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.for.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.break.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.continue.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.while.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.do.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.switch.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.case.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.default.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.return.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.goto.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.try.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.catch.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.finally.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.throw.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.include.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.define.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.pragma.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.other.using.directive.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.pragma.preprocessor.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "punctuation.definition.interpolation.end.cs",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "punctuation.definition.interpolation.begin.cs",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.conditional.ifdef.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.conditional.ifndef.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.undef.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.else.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.endif.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor.cpp",
+                "settings": {
+                    "foreground": "#BD63C5"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.begin.preprocessor.cpp",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.end.preprocessor.cpp",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.section.parens.begin.bracket.round.cpp",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.section.parens.end.bracket.round.cpp",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.separator.scope-resolution.cpp",
+                "settings": {
+                    "foreground": "#DCDCDC"
+                }
+            },
+            {
+                "scope": "storage.modifier.reference.cpp",
+                "settings": {
+                    "foreground": "#DCDCDC"
+                }
+            },
+            {
+                "scope": "storage.modifier.pointer.cpp",
+                "settings": {
+                    "foreground": "#DCDCDC"
+                }
+            },
+            {
+                "scope": "meta.template.definition.cpp",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "punctuation.section.angle-brackets.begin.template.definition.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "punctuation.section.angle-brackets.end.template.definition.cpp",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "punctuation.separator.parameters.cpp",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            // C
+            {
+                "scope": "keyword.control.directive.include.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.define.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.begin.c",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.definition.parameters.end.c",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.section.parens.begin.bracket.round.c",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.section.parens.end.bracket.round.c",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "punctuation.separator.parameters.c",
+                "settings": {
+                    "foreground": "#C8C8C8"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.conditional.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "entity.name.function.preprocessor.c",
+                "settings": {
+                    "foreground": "#BD63C5"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.pragma.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.pragma.preprocessor.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            },
+            {
+                "scope": "keyword.control.c",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.switch.c",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.case.c",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.default.c",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.switch.c",
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            },
+            {
+                "scope": "keyword.control.directive.undef.c",
+                "settings": {
+                    "foreground": "#9B9B9B"
+                }
+            }
+        ]
+    }
+}
